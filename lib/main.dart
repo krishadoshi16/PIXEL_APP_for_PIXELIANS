@@ -11,7 +11,7 @@ import 'forgot_password_screen.dart';
 import 'pixel_screen.dart';
 import 'gallery_screen.dart';
 import 'draw_screen.dart';
-import 'profile_screen.dart';               // ⭐ NEW
+import 'profile_screen.dart';               
 import 'favorites_screen.dart';
 import 'explore_screen.dart';
 import 'activity_screen.dart';
@@ -58,9 +58,9 @@ class PixelArtApp extends StatelessWidget {
         '/home': (_) => const PixelHomeScreen(),
         '/gallery': (_) => const GalleryScreen(),
         '/draw': (_) => const DrawScreen(),
-        '/profile': (_) => const ProfileScreen(),          // ⭐ NEW
-        '/favorites': (_) => const FavoritesScreen(),      // ⭐ NEW
-        '/explore': (_) => const ExploreScreen(),   // ⭐ NEW
+        '/profile': (_) => const ProfileScreen(),          
+        '/favorites': (_) => const FavoritesScreen(),      
+        '/explore': (_) => const ExploreScreen(),   
         '/activity': (_) => const ActivityScreen(),
 
       },
