@@ -1,0 +1,63 @@
+name: pixel_art_app
+description: A cute pixel art maker built with Flutter.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Image selection
+  image_picker: ^1.0.7
+
+  # HTTP (for future backend use)
+  http: ^1.2.2
+
+  # Image processing (for pixelation)
+  image: ^4.5.4
+
+  # Save PNG files
+  path_provider: ^2.1.5
+
+  # PDF export + print/share
+  pdf: ^3.11.0
+  printing: ^5.13.0
+
+  shared_preferences: ^2.2.2
+  supabase_flutter: ^2.5.8
+
+  share_plus: ^10.0.2
+  flutter_colorpicker: ^1.1.0
+  palette_generator: ^0.3.3
+  google_sign_in: ^6.2.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+  # 👇 for changing launcher icon
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  # 👇 in-app logo image
+  assets:
+    - assets/logo.png
+
+# 👇 launcher icon config (uses assets/app_icon.png)
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/app_icon.png
